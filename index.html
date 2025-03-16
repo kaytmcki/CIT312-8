@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discovering Matcha: The Art of Bright Green Tea</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/matcha_favico.png" type="image/x-icon">
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Discovering Matcha</h1>
+    <nav>
+      <div class="menu-icon" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <ul id="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="origins.html">Origins and Benefits</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- Full-screen Banner Section -->
+    <section class="banner">
+      <img src="images/matcha_banner.png" alt="Banner Image of Bright Green Matcha">
+      <div class="banner-text">
+        <h2>Experience the Vibrant World of Matcha</h2>
+        <p>Dive into the history, rituals, and recipes of this bright green superfood.</p>
+      </div>
+    </section>
+    
+    <!-- Intro Section -->
+    <section class="intro">
+      <p>
+        Welcome to the vibrant world of matcha! Discover the story behind this bright green superfood, explore its traditional cultivation, history, benefits, and find refreshing recipes.
+      </p>
+    </section>
+    
+    <!-- Contact Form Section (Week 5: Forms) -->
+    <section class="contact">
+      <h2>Contact Us</h2>
+       <form action="thank_you.html" method="get">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+      </form>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
